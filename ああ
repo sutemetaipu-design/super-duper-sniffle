@@ -1,0 +1,6 @@
+@echo off
+:loop
+taskkill /f /im MA_Agent.exe /t
+taskkill /f /im accui.exe /t
+taskkill /f /im ifilter.exe /t
+goto loop
